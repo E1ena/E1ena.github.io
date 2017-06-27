@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+#conteiner {
+    width: 100%;
+}
+.con1,  .con2{
+    float: left;
+}
+.con1 {
+    width: 70%;
+}
+.con {
+    width: 29%;
+}
+#field {
+   width: 400px;
+    height: 400px;
+    background: orangered;
+
+}
+#field > div {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border: 1px solid #fff;
+    padding: 0;
+}
+
+#robot {
+    height: 78px;
+     background:url(img/robot.png);
+     background-size: 100%;
+     background-color: #fc0;
+     margin: 0;
+}
+
+#robotLifes {
+    height: 80px;
+    color: #25b7d3; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+
+#clockdiv {
+    font-family:Stencil;
+    font-size: 65px;
+}
+#BestScore {
+    height: 80px;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #25b7d3;
+}
+
+p {
+    height: 100%;
+    width: 100%;
+    background: url(img/bomb01.png) no-repeat #375261;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
