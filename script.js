@@ -66,7 +66,7 @@ if (window.confirm("Начать игру?")) {
         setInterval(function() {
             self.makeHearts();
             self.makeBombs();
-        }, 900);
+        }, 1200);
     };
 
     Game.prototype.makeHearts = function () {
